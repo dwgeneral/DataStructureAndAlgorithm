@@ -1,14 +1,13 @@
-## 题目
+## 题目类型
 
 #### 数组
-- [#1 Two Sum](./Leetcode-1-380.js)
-- [#21 merge-two-sorted-lists](./Leetcode-21-380.js)
-- [#26 remove-duplicates-from-sorted-array](./Leetcode-26-380.js)
-- [#66 plus-one](./Leetcode-66-380.js)
-- [#88 merge-sorted-array](./Leetcode-88-380.js)
-- [#189 rotate-array](./Leetcode-189-380.js)
-- [#283 move-zeroes](./Leetcode-283-380.js)
-
+- [#1 Two Sum](./Leetcode-1.js)
+- [#21 merge-two-sorted-lists](./Leetcode-21.js)
+- [#26 remove-duplicates-from-sorted-array](./Leetcode-26.js)
+- [#66 plus-one](./Leetcode-66.js)
+- [#88 merge-sorted-array](./Leetcode-88.js)
+- [#189 rotate-array](./Leetcode-189.js)
+- [#283 move-zeroes](./Leetcode-283.js)
 - [container-with-most-water/](https://leetcode-cn.com/problems/container-with-most-water/)
 - [climbing-stairs/](https://leetcode.com/problems/climbing-stairs/)
 - [3sum/](https://leetcode-cn.com/problems/3sum/)
@@ -22,32 +21,80 @@
 - [reverse-nodes-in-k-group/](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 #### 哈希表
-- [#1. Two Sum](./Leetcode-1-380.js)
-- [#49. Group Anagrams](./Leetcode-49-380.js)
-- [#242. Valid Anagram](./Leetcode-242-380.js)
+- [#1. Two Sum](./Leetcode-1.js)
+- [#49. Group Anagrams](./Leetcode-49.js)
+- [#242. Valid Anagram](./Leetcode-242.js)
 
 #### 二叉树遍历
-- [#94. Binary Tree Inorder Traversal](./Leetcode-94-380.js)
-- [#144. Binary Tree Preorder Traversal](./Leetcode-144-380.js)
-- [#429. N-ary Tree Level Order Traversal](./Leetcode-429-380.js)
-- [#589. N-ary Tree Preorder Traversal](./Leetcode-589-380.js)
-- [#590. N-ary Tree Postorder Traversal](./Leetcode-590-380.js)
+- [#94. Binary Tree Inorder Traversal](./Leetcode-94.js)
+- [#144. Binary Tree Preorder Traversal](./Leetcode-144.js)
+- [#429. N-ary Tree Level Order Traversal](./Leetcode-429.js)
+- [#589. N-ary Tree Preorder Traversal](./Leetcode-589.js)
+- [#590. N-ary Tree Postorder Traversal](./Leetcode-590.js)
 
-### 递归、回溯
+#### 递归、回溯
+- [#22. Generate Parentheses](./Leetcode-22.js)
+- [#46. Permutations](./Leetcode-46.js)
+- [#47. Permutations II](./Leetcode-47.js)
+- [#70. Climbing Stairs](./Leetcode-70.js)
+- [#77. Combinations](./Leetcode-77.js)
+- [#98. Validate Binary Search Tree](./Leetcode-98.js)
+- [#104. Maximum Depth of Binary Tree](./Leetcode-104.js)
+- [#105. Construct Binary Tree from Preorder and Inorder Traversal](./Leetcode-105.js)
+- [#111. Minimum Depth of Binary Tree](./Leetcode-111.js)
+- [#226. Invert Binary Tree](./Leetcode-226.js)
+- [#236. Lowest Common Ancestor of a Binary Tree](./Leetcode-236.js)
+
+#### 分治
+- [#17. Letter Combinations of a Phone Number](./Leetcode-17-380.js)
+- [#50. Pow(x, n)](./Leetcode-50-380.js)
+- [#51. N-Queens](./Leetcode-51-380.js)
+- [#78. SubSets](./Leetcode-78-380.js)
+- [#169. Majority Element](./Leetcode-169-380.js)
+
+#### 广度优先搜索 / 深度优先搜索
 - [#22. Generate Parentheses](./Leetcode-22-380.js)
-- [#46. Permutations](./Leetcode-46-380.js)
-- [#47. Permutations II](./Leetcode-47-380.js)
-- [#70. Climbing Stairs](./Leetcode-70-380.js)
-- [#77. Combinations](./Leetcode-77-380.js)
-- [#98. Validate Binary Search Tree](./Leetcode-98-380.js)
-- [#104. Maximum Depth of Binary Tree](./Leetcode-104-380.js)
-- [#105. Construct Binary Tree from Preorder and Inorder Traversal](./Leetcode-105-380.js)
-- [#111. Minimum Depth of Binary Tree](./Leetcode-111-380.js)
-- [#226. Invert Binary Tree](./Leetcode-226-380.js)
-- [#236. Lowest Common Ancestor of a Binary Tree](./Leetcode-236-380.js)
+- [#102. Binary Tree Level Order Traversal](./Leetcode-102-380.js)
+- [#515. Find Largest Value in Each Tree Row](./Leetcode-515-380.js)
+- [#200. Number of Islands](./Leetcode-200-380.js)
+- [#529. Minesweeper](./Leetcode-529-380.js)
 
+#### 字符转换题
+- [#433. Minimum Genetic Mutation](./Leetcode-433-380.js)
+- [#127. Word Ladder](./Leetcode-127-380.js)
+
+#### 贪心算法
+- [#860. Lemonade Change](./Leetcode-860-380.js)
+- [#122. Best Time to Buy and Sell Stock II](./Leetcode-122-380.js)
+- [#455. Assign Cookies](./Leetcode-455-380.js)
+- [#874. Walking Robot Simulation](./Leetcode-874-380.js)
+- [#55. Jump Game](./Leetcode-55-380.js)
+- [#45. Jump Game II](./Leetcode-45-380.js)
+
+#### 二分查找
+- [#69. Sqrt(x)](./Leetcode-69-380.js)
+- [#367. Valid Perfect Square](./Leetcode-367-380.js)
+- [#33. Search in Rotated Sorted Array](./Leetcode-33-380.js)
+- [#74. Search a 2D Matrix](./Leetcode-74-380.js)
+- [练习：二分查找找有序数组断点](./binary-search.js)
 
 ## 学习笔记
+
+#### 如何使用Leetcode进行算法学习
+  - 不在于AC的题数量，而是针对每道题，要多练（五遍）
+    - 第一遍：
+      - 计时五分钟思考，写出自己能想到的可能的解法的伪代码，一般五分钟内能想到2-3个解法就是极好的
+      - 如果完全没有思路，熬五分钟后直接去官网+中文网站看题解，选出3个题解，背下来
+    - 第二遍：
+      - 自己重新看这道题，从思路整理到代码AC，看自己是否能一遍过，如果不行，重复此操作
+      - 考虑是否将此题加入到后续练习题目中
+    - 第三遍：
+      - 三天后，重新做自己记录的练习题目
+    - 第四遍：
+      - 一周后，重新做自己记录的练习题目
+      - 考虑是否此题已完全掌握，移出练习题目
+    - 第五遍：
+      - 面试前, 重新做
 
 #### Array 数组
   - 是一种线性表结构，它用一组连续的存储空间，来存储一组具有相同类型的数据
@@ -188,18 +235,114 @@ def backtrack(路径，选择列表):
   - 参考资料
       - [https://zh.wikipedia.org/wiki/回溯法](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%BA%AF%E6%B3%95)
 
-- 如何使用Leetcode进行算法学习
-  - 不在于AC的题数量，而是针对每道题，要多练（五遍）
-    - 第一遍：
-      - 计时五分钟思考，写出自己能想到的可能的解法的伪代码，一般五分钟内能想到2-3个解法就是极好的
-      - 如果完全没有思路，熬五分钟后直接去官网+中文网站看题解，选出3个题解，背下来
-    - 第二遍：
-      - 自己重新看这道题，从思路整理到代码AC，看自己是否能一遍过，如果不行，重复此操作
-      - 考虑是否将此题加入到后续练习题目中
-    - 第三遍：
-      - 三天后，重新做自己记录的练习题目
-    - 第四遍：
-      - 一周后，重新做自己记录的练习题目
-      - 考虑是否此题已完全掌握，移出练习题目
-    - 第五遍：
-      - 面试前, 重新做
+#### 分治、回溯的实现和特性
+
+- 分治和回溯都是递归而已
+- 分治（Divide & Conquer）：将一个大问题分成若干小问题，解决掉这些小问题，Merge回去，就解决了大问题
+    ```javascript
+    // 递归
+    const recursion = (level, params) => {
+    	// recursion terminator
+    	if (level > MAX_LEVEL) {
+    		process_result
+    		return
+    	}
+    	// process current level
+    	process(level, params)
+    	// drill down
+    	recursion(level + 1, params)
+    	// clean current level status if needed	
+    }
+    
+    // 分治
+    const divide_conquer = (problem, params) => {
+    	// recursion terminator
+    	if (problem == null) {
+    		process_result
+    		return
+    	} 
+    	// process current problem
+    	subproblems = split_problem(problem, data)
+    	subresult1 = divide_conquer(subproblem[0], p1)
+    	subresult2 = divide_conquer(subproblem[1], p1)
+    	subresult3 = divide_conquer(subproblem[2], p1)
+    	...
+    	// merge
+    	result = process_result(subresult1, subresult2, subresult3)
+    	// revert the current level status
+    }
+
+#### 深度优先搜索 DFS
+
+- 递归、栈来实现
+    ```python
+    def dfs(node):
+    	if node in visited:
+    		return
+    	visited.add(node)
+    	dfs(node.left)
+    	dfs(node.right)
+
+#### 广度优先搜索 BFS
+
+- 队列实现
+    ```python
+    def bfs(graph, start, end):
+      queue = []
+      queue.append([start])
+      visited.add(start)
+
+      while queue:
+        node = queue.pop()
+        visited.add(node)
+        process(node)
+        nodes = generate_related_nodes(node)
+        queue.push(nodes)
+
+    // BFS
+    const BFS = (root) => {
+      if (!root) return []
+      let result = [], queue = [root]
+      while (queue.length > 0) {
+        let level = [], n = queue.length
+        for (let i = 0; i < n; i++) {
+          let node = queue.pop()
+          level.push(node.val) 
+          if (node.left) queue.unshift(node.left)
+          if (node.right) queue.unshift(node.right)
+        }
+        result.push(level)
+      }
+      return result
+    };
+
+#### 贪心算法
+
+- 是一种在每一步选择中都采取在当前状态下最好或最优的选择，不能回退，从而希望导致结果是全局最好或最优的算法
+- 解决一些最优问题，如：求图中的最小生成树、哈夫曼编码。然而对于工程和生活上的问题，贪心算法一般不能得到我们所要求的答案
+- 那为什么还会有这个算法呢？因为一旦一个问题通过贪心算法来解决，那么贪心算法一般是解决这个问题的最好办法。由于贪心算法的高效性以及其所求得的答案比较接近最优结果。
+
+#### 贪心算法、回溯算法、动态规划
+
+- 贪心算法：只会当下做局部最优判断且不能回退
+- 回溯算法：能够回退
+- 动态规划：会保存之前的运算结果，根据以前的结果对当前进行选择，可以回退
+
+#### 二分查找
+
+- 使用二分查找的条件
+    - 有序
+    - 存在上下界
+    - 能够通过索引访问
+    ```python
+    # 代码模版
+    left, right = 0, len(array) - 1
+    while left <= right:
+      mid = (left + right) / 2
+      if array[mid] == target:
+        # find the target
+        return
+      elsif array[mid] < target:
+        left = mid + 1
+      else
+        right = mid - 1
