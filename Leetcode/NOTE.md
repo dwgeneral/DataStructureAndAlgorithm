@@ -7,9 +7,9 @@
 - [#88 merge-sorted-array](./Leetcode-88.js)
 - [#189 rotate-array](./Leetcode-189.js)
 - [#283 move-zeroes](./Leetcode-283.js)
-- [container-with-most-water/](https://leetcode-cn.com/problems/container-with-most-water/)
-- [climbing-stairs/](https://leetcode.com/problems/climbing-stairs/)
-- [3sum/](https://leetcode-cn.com/problems/3sum/)
+- [#11 Container With Most Water](./Leetcode-11.js)
+- [#70 Climbing Stairs](./Leetcode-70.js)
+- [#15 3Sum](./Leetcode-15.js)
 
 
 #### 链表
