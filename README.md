@@ -55,36 +55,36 @@
 - [#236. Lowest Common Ancestor of a Binary Tree](./Leetcode-236.js)
 
 #### 分治
-- [#17. Letter Combinations of a Phone Number](./Leetcode-17-380.js)
-- [#50. Pow(x, n)](./Leetcode-50-380.js)
-- [#51. N-Queens](./Leetcode-51-380.js)
-- [#78. SubSets](./Leetcode-78-380.js)
-- [#169. Majority Element](./Leetcode-169-380.js)
+- [#17. Letter Combinations of a Phone Number](./Leetcode-17.js)
+- [#50. Pow(x, n)](./Leetcode-50.js)
+- [#51. N-Queens](./Leetcode-51.js)
+- [#78. SubSets](./Leetcode-78.js)
+- [#169. Majority Element](./Leetcode-169.js)
 
 #### 广度优先搜索 / 深度优先搜索
-- [#22. Generate Parentheses](./Leetcode-22-380.js)
-- [#102. Binary Tree Level Order Traversal](./Leetcode-102-380.js)
-- [#515. Find Largest Value in Each Tree Row](./Leetcode-515-380.js)
-- [#200. Number of Islands](./Leetcode-200-380.js)
-- [#529. Minesweeper](./Leetcode-529-380.js)
+- [#22. Generate Parentheses](./Leetcode-22.js)
+- [#102. Binary Tree Level Order Traversal](./Leetcode-102.js)
+- [#515. Find Largest Value in Each Tree Row](./Leetcode-515.js)
+- [#200. Number of Islands](./Leetcode-200.js)
+- [#529. Minesweeper](./Leetcode-529.js)
 
 #### 字符转换题
-- [#433. Minimum Genetic Mutation](./Leetcode-433-380.js)
-- [#127. Word Ladder](./Leetcode-127-380.js)
+- [#433. Minimum Genetic Mutation](./Leetcode-433.js)
+- [#127. Word Ladder](./Leetcode-127.js)
 
 #### 贪心算法
-- [#860. Lemonade Change](./Leetcode-860-380.js)
-- [#122. Best Time to Buy and Sell Stock II](./Leetcode-122-380.js)
-- [#455. Assign Cookies](./Leetcode-455-380.js)
-- [#874. Walking Robot Simulation](./Leetcode-874-380.js)
-- [#55. Jump Game](./Leetcode-55-380.js)
-- [#45. Jump Game II](./Leetcode-45-380.js)
+- [#860. Lemonade Change](./Leetcode-860.js)
+- [#122. Best Time to Buy and Sell Stock II](./Leetcode-122.js)
+- [#455. Assign Cookies](./Leetcode-455.js)
+- [#874. Walking Robot Simulation](./Leetcode-874.js)
+- [#55. Jump Game](./Leetcode-55.js)
+- [#45. Jump Game II](./Leetcode-45.js)
 
 #### 二分查找
-- [#69. Sqrt(x)](./Leetcode-69-380.js)
-- [#367. Valid Perfect Square](./Leetcode-367-380.js)
-- [#33. Search in Rotated Sorted Array](./Leetcode-33-380.js)
-- [#74. Search a 2D Matrix](./Leetcode-74-380.js)
+- [#69. Sqrt(x)](./Leetcode-69.js)
+- [#367. Valid Perfect Square](./Leetcode-367.js)
+- [#33. Search in Rotated Sorted Array](./Leetcode-33.js)
+- [#74. Search a 2D Matrix](./Leetcode-74.js)
 - [练习：二分查找找有序数组断点](./binary-search.js)
 
 ## 学习笔记
