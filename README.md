@@ -64,6 +64,7 @@
 #### 广度优先搜索 / 深度优先搜索
 - [#22. Generate Parentheses](./Leetcode-22.js)
 - [#102. Binary Tree Level Order Traversal](./Leetcode-102.js)
+- [#429. N-ary Tree Level Order Traversal](./Leetcode-429.js)
 - [#515. Find Largest Value in Each Tree Row](./Leetcode-515.js)
 - [#200. Number of Islands](./Leetcode-200.js)
 - [#529. Minesweeper](./Leetcode-529.js)
@@ -248,38 +249,39 @@ def backtrack(路径，选择列表):
 
 - 分治和回溯都是递归而已
 - 分治（Divide & Conquer）：将一个大问题分成若干小问题，解决掉这些小问题，Merge回去，就解决了大问题
-    ```javascript
-    // 递归
-    const recursion = (level, params) => {
-    	// recursion terminator
-    	if (level > MAX_LEVEL) {
-    		process_result
-    		return
-    	}
-    	// process current level
-    	process(level, params)
-    	// drill down
-    	recursion(level + 1, params)
-    	// clean current level status if needed	
+  ```javascript
+  // 递归
+  const recursion = (level, params) => {
+    // recursion terminator
+    if (level > MAX_LEVEL) {
+      process_result
+      return
     }
-    
-    // 分治
-    const divide_conquer = (problem, params) => {
-    	// recursion terminator
-    	if (problem == null) {
-    		process_result
-    		return
-    	} 
-    	// process current problem
-    	subproblems = split_problem(problem, data)
-    	subresult1 = divide_conquer(subproblem[0], p1)
-    	subresult2 = divide_conquer(subproblem[1], p1)
-    	subresult3 = divide_conquer(subproblem[2], p1)
-    	...
-    	// merge
-    	result = process_result(subresult1, subresult2, subresult3)
-    	// revert the current level status
-    }
+    // process current level
+    process(level, params)
+    // drill down
+    recursion(level + 1, params)
+    // clean current level status if needed	
+  }
+  
+  // 分治
+  const divide_conquer = (problem, params) => {
+    // recursion terminator
+    if (problem == null) {
+      process_result
+      return
+    } 
+    // process current problem
+    subproblems = split_problem(problem, data)
+    subresult1 = divide_conquer(subproblem[0], p1)
+    subresult2 = divide_conquer(subproblem[1], p1)
+    subresult3 = divide_conquer(subproblem[2], p1)
+    ...
+    // merge
+    result = process_result(subresult1, subresult2, subresult3)
+    // revert the current level status
+  }
+  ```
 
 #### 深度优先搜索 DFS
 
@@ -355,3 +357,6 @@ def backtrack(路径，选择列表):
         left = mid + 1
       else
         right = mid - 1
+
+
+#### [代码模版汇总](./Templates.md)

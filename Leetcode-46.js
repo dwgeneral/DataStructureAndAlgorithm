@@ -1,6 +1,7 @@
 /**
  * 46. Permutations
  * https://leetcode.com/problems/permutations/
+ * Given a collection of distinct integers, return all possible permutations.
  * Example:
     Input: [1,2,3]
     Output:
@@ -32,22 +33,3 @@ const backtrack = (result, tempList, nums) => {
   }
 }
 
-/*
-tempList:
-[]
-[1]
-  [1,2]
-    [1,2,3] => result = [[1,2,3]]
-  [1,3]
-    [1,3,2] => result = [[1,2,3],[1,3,2]]
-[2]
-  [2,1]
-   [2,1,3] => ... 
-  [2,3]
-    [2,3,1] => ...
-[3]
-  [3,1]
-    [3,1,2] => ...
-  [3,2]
-    [3,2,1] => ...
-*/

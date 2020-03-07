@@ -46,6 +46,9 @@ const reverse = (start, end) => {
   while (curr != end) [curr.next, prev, curr] = [prev, curr, curr.next]
   return prev
 }
+```
+
+```javascript
 // reverse Linked-List -- recursion
 const reverseList = (head, prev = null) => {
   if (head === null) return prev
@@ -62,7 +65,9 @@ const reverseList = (head) => {
   head.next = null
   return last
 }
+```
 
+```javascript
 // slow and fast pointers
 // 我的双指针解法（比常规的解法优雅）
 const hasCycle = (head) => {
@@ -89,8 +94,101 @@ const hasCycle = (head) => {
 };
 ```
 
+#### 二叉树
+```javascript
+// 中序遍历
+const inorderTraversal = (root) => {
+  if (!root) return []  
+  return inorderTraversal(root.left).concat(root.val, inorderTraversal(root.right))
+}
+
+// 中序遍历
+const inorderTraversal = (root, result = []) => {
+ if (root) {
+   inorderTraversal(root.left, result)
+   result.push(root.val)
+   inorderTraversal(root.right, result)
+ }
+ return result
+}
+```
+
+```javascript
+// 二叉树前序遍历
+const preorderTraversal = (root, result = []) => {
+  if (root) {
+    result.push(root.val)
+    preorderTraversal(root.left, result)
+    preorderTraversal(root.right, result)
+  }
+  return result
+}
+
+// N叉树前序遍历
+const preorder = (root, result = []) => {
+  if (root) {
+    result.push(root.val)
+    for (let i = 0; i < root.children.length; i++) {
+      preorder(root.children[i], result)
+    }
+  }  
+  return result
+}
+
+// N叉树后序遍历 
+const postorder = (root, result = []) => {
+  if (root) {
+    for (let i = 0; i < root.children.length; i++) {
+      postorder(root.children[i], result)
+    }
+    result.push(root.val)
+  }
+  return result
+}
+```
+
+```javascript
+// 使用队列实现N叉树广度优先搜索 (层序遍历)
+const levelOrder = (root) => {
+  if (!root) return []
+  let queue = [root], result = []
+  while(queue.length) {
+    let level = []
+    let len = queue.length
+    while(len) {
+      let node = queue.shift()
+      level.push(node.val)
+      if (node.children && node.children.length) {
+        queue.push(...node.children)
+      }
+      len-- 
+    }
+    result.push(level)
+  }
+  
+  return result
+}
+```
+
 #### 递归
 ```javascript
+// 递归代码模版
+const recursion = (level, params) => {
+  // recursion terminator
+  if (level > MAX_LEVEL) {
+    process_result
+    return
+  }
+  // process current level
+  process(level, params)
+  // drill down
+  recursion(level + 1, params)
+  // clean current level status if needed	
+}
+```
+
+```javascript
+// 数组递归
 const climbStairs = (n, result = [0, 1, 2]) => {
   if (n <= 3) return n
   if (result[n] == undefined) {
@@ -99,6 +197,7 @@ const climbStairs = (n, result = [0, 1, 2]) => {
   return result[n]
 }
 
+// 链表递归
 const mergeTwoLists = (l1, l2) => {
   if (l1 == null) return l2
   if (l2 == null) return l1
@@ -110,5 +209,118 @@ const mergeTwoLists = (l1, l2) => {
     return l2
   }
 };
+
+// 字符串递归
+const generateParenthesis = (n, result = []) => {
+  const _generator = (left, right, str) => {
+    if (left == n && right == n) { result.push(str); return }  
+    if (left < n) _generator(left + 1, right, str + '(')      
+    if (right < left) _generator(left, right + 1, str + ')')
+  }
+  _generator(0, 0, '')
+  return result
+}
 ```
 
+#### 回溯递归
+```javascript
+// 回溯代码模版
+const backtrack = (path, choiceList) => {
+  if (path is satisfied) {
+    result.push(path)
+    return
+  }
+  for (let choice in choiceList) {
+    do choice
+    backtrack(path, choiceList)
+    revert choice
+  }
+}
+```
+
+```javascript
+// 回溯算法解决全排列问题
+const permute = (nums) => {
+  let result = []  
+  backtrack(result, [], nums)
+  return result
+};
+
+const backtrack = (result, tempList, nums) => {
+  if (tempList.length === nums.length) return result.push([...tempList]) 
+  for (let i = 0; i < nums.length; i++) {
+    if (tempList.includes(nums[i])) continue
+    tempList.push(nums[i])
+    backtrack(result, tempList, nums)
+    tempList.pop()
+  }
+}
+```
+
+#### 分治递归
+```javascript
+// 分治代码模版
+  const divide_conquer = (problem, params) => {
+    // recursion terminator
+    if (problem == null) {
+      process_result
+      return
+    } 
+    // process current problem
+    subproblems = split_problem(problem, data)
+    subresult1 = divide_conquer(subproblem[0], p1)
+    subresult2 = divide_conquer(subproblem[1], p1)
+    subresult3 = divide_conquer(subproblem[2], p1)
+    ...
+    // merge
+    result = process_result(subresult1, subresult2, subresult3)
+    // revert the current level status
+  }
+```
+
+#### 深度优先搜索(DFS)
+```javascript
+// 递归实现
+const dfs = (node) => {
+  if (visited.has(node)) return
+  visited.add(node)
+  dfs(node.left)
+  dfs(node.right)
+}
+
+// 手动维护栈实现 TODO
+```
+
+#### 广度优先搜索(BFS)
+```javascript
+// 队列实现
+const BFS = (root) => {
+  if (!root) return []
+  let result = [], queue = [root]
+  while (queue.length > 0) {
+    let level = [], n = queue.length
+    for (let i = 0; i < n; i++) {
+      let node = queue.pop()
+      level.push(node.val) 
+      if (node.left) queue.unshift(node.left)
+      if (node.right) queue.unshift(node.right)
+    }
+    result.push(level)
+  }
+  return result
+}
+```
+
+#### 二分查找(Binary Search)
+```javascript
+// 二分查找代码模版
+let left = 0, right = nums.length-1
+while (left < right) {
+  let mid = Math.floor((left + right) / 2)
+  if (nums[mid] === target) {
+    // find the target 
+    return
+  } else if (array[mid] < target) left = mid + 1
+  else right = mid - 1
+}
+```
