@@ -7,25 +7,24 @@
  */
 
 // 方法一：暴力法, 两层循环 O(n^2)
-//var twoSum = function(nums, target) {
-//  for (let i = 0; i < nums.length - 1; i++) {
-//    for (let j = i+1; j < nums.length; j++) {
-//      if (nums[i] + nums[j] === target) return [i, j]
-//    }
-//  } 
-//};
+var twoSum = function(nums, target) {
+ for (let i = 0; i < nums.length - 1; i++) {
+   for (let j = i+1; j < nums.length; j++) {
+     if (nums[i] + nums[j] === target) return [i, j]
+   }
+ } 
+};
 
 // 方法二：使用哈希表， O(n)
 const twoSum = (nums, target) => {
+  if (nums.length < 2) return []
   let result = {}
   for (let i = 0; i < nums.length; i++) {
-    let distinct = target - nums[i]
-    if (result.hasOwnProperty(distinct)) {
-      return [i, result[distinct]]
-    }
+    let diffNum = target - nums[i]
+    if (result.hasOwnProperty(diffNum) && nums.indexOf(diffNum) != i) return [result[diffNum], i]
     result[nums[i]] = i
   }
-}
+};
 
 /**
  * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.

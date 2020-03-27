@@ -324,3 +324,20 @@ while (left < right) {
   else right = mid - 1
 }
 ```
+
+#### 动态规划(Dynamic Programming)
+```javascript
+// 最小路径和问题
+const minPathSum = (grid) => {
+  let rowLength = grid.length, colLength = grid[0].length
+  for (let row = 0; row < rowLength; row++) {
+    for (let col = 0; col < colLength; col++) {
+      if (row === 0 && col === 0) continue
+      else if (row === 0) grid[row][col] += grid[row][col-1]
+      else if (col === 0) grid[row][col] += grid[row-1][col]
+      else grid[row][col] += Math.min(grid[row-1][col], grid[row][col-1])
+    }
+  }
+  return grid[rowLength-1][colLength-1]
+}
+```

@@ -13,10 +13,7 @@ const letterCombinations = (digits) => {
 
 const backtrack = (result, dict, digits, tempStr, start) => {
   if (digits == "") return
-  if (tempStr.length === digits.length) {
-    result.push(tempStr)
-    return
-  }    
+  if (tempStr.length === digits.length) { result.push(tempStr); return }    
   for (let c of dict[digits[start]]) {
     backtrack(result, dict, digits, tempStr+c, start+1)
   }
