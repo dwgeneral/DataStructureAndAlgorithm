@@ -112,6 +112,10 @@
 - [#130. Surrounded Regions](./Leetcode-130.js)
 - [#36. Valid Sudoku](./Leetcode-36.js)
 
+#### 公约数问题
+- [#1071. Greatest Common Divisor of Strings]
+- [#914. X of a Kind in a Deck of Cards](./Leetcode-914.js)
+
 ## 学习笔记
 
 #### 如何使用Leetcode进行算法学习
