@@ -105,16 +105,21 @@
 #### 字典树
 - [#208. Implement Trie (Prefix Tree)](./Leetcode-208.js)
 - [#212. Word Search II](./Leetcode-212.js)
+- [#820. Short Encoding Of Words](./Leetcode-820.js)
 
 #### 并查集、DFS、BFS
 - [#547. Friend Circles](./Leetcode-547.js)
 - [#200. Number of Islands](./Leetcode-200.js)
 - [#130. Surrounded Regions](./Leetcode-130.js)
 - [#36. Valid Sudoku](./Leetcode-36.js)
+- [#1162. As Far from Land as Possible](./Leetcode-1162.js)
 
 #### 公约数问题
 - [#1071. Greatest Common Divisor of Strings]
 - [#914. X of a Kind in a Deck of Cards](./Leetcode-914.js)
+
+#### 排序
+- [#912. Sort an Array](./Leetcode-912.js)
 
 ## 学习笔记
 
