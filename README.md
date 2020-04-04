@@ -101,6 +101,7 @@
 - [#121. Best Time to Buy and Sell Stock](./Leetcode-121.js)
 - [#122. Best Time to Buy and Sell Stock II](./Leetcode-122.js)
 - [#621. Task Scheduler](./Leetcode-621.js)
+- [#42. Trapping Rain Water](./Leetcode-42.js)
 
 **字典树**
 - [#208. Implement Trie (Prefix Tree)](./Leetcode-208.js)
