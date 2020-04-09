@@ -90,7 +90,7 @@
 - [练习：二分查找找有序数组断点](./binary-search.js)
 
 **动态规划**
-- [#64. Minimum Path Sum](./Leetcode-64.js)
+- [#64. Minimum Path Sum](./Leetcode-64.md)
 - [#91. Decode Ways](./Leetcode-91.js)
 - [#221. Maximal Square](./Leetcode-221.js)
 - [#120. Triangle](./Leetcode-120.js)
