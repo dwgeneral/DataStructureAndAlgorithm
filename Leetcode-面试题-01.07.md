@@ -1,10 +1,7 @@
 本题考察知识点：
   - 二维数组的基本操作及遍历的编码功底
-
-本题收获：
   - 应该要熟练编写二维数组的行列互换，顺逆翻转，合并等操作的代码
   - 熟练用数组进行原地空间操作
-
 
 ```javascript
 /**
@@ -47,4 +44,4 @@ const rotate = (matrix) => {
 }
 ```
 
-[更多 Leetcode For Javascript 题解请关注](https://github.com/dwgeneral/JS-Leetcode)
+[更多 JS-Leetcode 题解请关注](https://github.com/dwgeneral/JS-Leetcode)
