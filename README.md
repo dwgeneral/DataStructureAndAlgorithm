@@ -63,7 +63,7 @@
 - [#169. Majority Element](./Leetcode-169.js)
 
 **广度优先搜索 / 深度优先搜索**
-- [#102. Binary Tree Level Order Traversal](./Leetcode-102.js)
+- [#102. Binary Tree Level Order Traversal](./Leetcode-102.md)
 - [#429. N-ary Tree Level Order Traversal](./Leetcode-429.js)
 - [#515. Find Largest Value in Each Tree Row](./Leetcode-515.js)
 - [#200. Number of Islands](./Leetcode-200.js)
