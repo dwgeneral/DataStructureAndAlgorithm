@@ -11,18 +11,22 @@
 //   nums.unshift(...nums.splice(nums.length - k))
 // }
 
-// 方法二：reverse O(n^2)
+// 方法二：使用 pop, unshift 依次交换元素 O(nk)
 const rotate = (nums, k) => {
-  let temp, previous
   for (let i = 0; i < k; i++) {
-    previous = nums[nums.length - 1]
-    for (let j = 0; j < nums.length; j++) {
-      temp = nums[j]
-      nums[j] = previous
-      previous = temp
-    }
-  }
+    nums.unshift(nums.pop())
+  }    
 }
+
+/**
+ * 方法三：环状数组
+ */
+const rotate = (nums, k) => {
+}
+
+/**
+ * 方法四：三次reverse
+ */
 
 /**
  * Given an array, rotate the array to the right by k steps, where k is non-negative.
