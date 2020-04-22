@@ -76,6 +76,7 @@
 **字符转换题**
 - [#433. Minimum Genetic Mutation](./Leetcode-433.js)
 - [#127. Word Ladder](./Leetcode-127.js)
+- [#833. Find And Replace in String](./Leetcode-833.js)  🌈🌈🌈
 
 **贪心算法**
 - [#860. Lemonade Change](./Leetcode-860.js)
