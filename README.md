@@ -36,6 +36,7 @@
 - [#1. Two Sum](./Leetcode-1.js)
 - [#49. Group Anagrams](./Leetcode-49.js)
 - [#242. Valid Anagram](./Leetcode-242.js)
+- [#149. Max Points on a Line](./Leetcode-149.js)  🌈🌈🌈
 
 **二叉树遍历**
 - [#94. Binary Tree Inorder Traversal](./Leetcode-94.js)
