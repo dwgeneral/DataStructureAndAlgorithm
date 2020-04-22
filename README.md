@@ -133,7 +133,7 @@
 - [#52. N-QueensII](./Leetcode-52.js)
 
 **LRU Cache**
-- [#146. LRU Cache](./Leetcode-146.js)
+- [#146. LRU Cache](./Leetcode-146.js)  🌈🌈🌈
 
 **排序**
 - [#912. Sort an Array](./Leetcode-912.js)
