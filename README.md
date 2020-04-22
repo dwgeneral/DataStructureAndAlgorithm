@@ -11,6 +11,7 @@
 
 **数组**
 - [#1 Two Sum](./Leetcode-1.js)
+- [#3 Longest Substring Without Repeating Characters](./Leetcode-3.js)  🌈🌈🌈
 - [#26 remove-duplicates-from-sorted-array](./Leetcode-26.js)
 - [#66 plus-one](./Leetcode-66.js)
 - [#88 merge-sorted-array](./Leetcode-88.js)
@@ -23,13 +24,14 @@
 
 
 **链表**
+- [#2 Add Two Numbers](./Leetcode-2.js)            🌈🌈🌈
 - [#21 merge-two-sorted-lists](./Leetcode-21.js) ⭐️
 - [#206 reverse-linked-list/](./Leetcode-206.js)
 - [#24 swap-nodes-in-pairs](./Leetcode-24.js) ⭐️
 - [#141 linked-list-cycle](./Leetcode-141.js)
 - [#142 linked-list-cycle-ii](./Leetcode-142.js)
 - [#25 reverse-nodes-in-k-group/](./Leetcode-25.js)
-- [#445. Add Two Numbers II](./Leetcode-445.js)
+- [#445. Add Two Numbers II](./Leetcode-445.js)    🌈🌈🌈
 
 
 **哈希表**
