@@ -9,6 +9,9 @@
 
 ### 题目类型
 
+**数学**
+- [#7 Reverse Integer](./Leetcode-7.js)          🌈🌈🌈
+
 **数组**
 - [#1 Two Sum](./Leetcode-1.js)
 - [#3 Longest Substring Without Repeating Characters](./Leetcode-3.js)  🌈🌈🌈
@@ -25,9 +28,10 @@
 
 **链表**
 - [#2 Add Two Numbers](./Leetcode-2.js)            🌈🌈🌈
-- [#21 merge-two-sorted-lists](./Leetcode-21.js) ⭐️
+- [#21 merge-two-sorted-lists](./Leetcode-21.js)   ⭐  ️
+- [#23. Merge k Sorted Lists](./Leetccode-23.js)   🌈🌈
 - [#206 reverse-linked-list/](./Leetcode-206.js)
-- [#24 swap-nodes-in-pairs](./Leetcode-24.js) ⭐️
+- [#24 swap-nodes-in-pairs](./Leetcode-24.js)      ⭐      ️
 - [#141 linked-list-cycle](./Leetcode-141.js)
 - [#142 linked-list-cycle-ii](./Leetcode-142.js)
 - [#25 reverse-nodes-in-k-group/](./Leetcode-25.js)
@@ -145,6 +149,9 @@
 - [#1244. Design A Leaderboard](./Leetcode-1244.js)
 - [#56. Merge Intervals](./Leetcode-56.js)
 - [#493. Reverse Pairs](./Leetcode-493.js)
+
+**归并排序**
+- [#面试题51. 数组中的逆序对](./Leetcode-面试题51.js)
 
 **字符串算法**
 - [#387. First Unique Character in a String](./Leetcode-387.js)
