@@ -12,7 +12,7 @@
  * @return {ListNode}
  */
 /**
- * 方法一：分治 + 归并排序
+ * 方法一： 分治思想(两两合并)
  */
 const mergeKLists = (lists) => {
   let n = lists.length, result = lists[0]
@@ -37,3 +37,7 @@ const mergeTwoLists = (l1, l2) => {
 /**
  * 方法二：优先队列
  */
+
+ /**
+  * 方法三：分治思想 + 归并排序
+  */

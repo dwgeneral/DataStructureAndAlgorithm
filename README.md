@@ -138,6 +138,7 @@
 - [#190. Reverse Bits](./Leetcode-190.js)
 - [#51. N-Queens](./Leetcode-51.js)
 - [#52. N-QueensII](./Leetcode-52.js)
+- [#面试题56. 数组中数字出现的次数](./Leetcode-面试题56.js)
 
 **LRU Cache**
 - [#146. LRU Cache](./Leetcode-146.js)  🌈🌈🌈
