@@ -36,6 +36,7 @@
 - [#142 linked-list-cycle-ii](./Leetcode-142.js)
 - [#25 reverse-nodes-in-k-group/](./Leetcode-25.js)
 - [#445. Add Two Numbers II](./Leetcode-445.js)    🌈🌈🌈
+- [#202. Happy Number](./Leetcode-202.js) ⭐️
 
 
 **哈希表**
@@ -99,6 +100,7 @@
 - [#33. Search in Rotated Sorted Array](./Leetcode-33.js)
 - [#74. Search a 2D Matrix](./Leetcode-74.js)
 - [练习：二分查找找有序数组断点](./binary-search.js)
+- [#1095. Find in Mountain Array](./Leetcode-1095.js)
 
 **动态规划**
 - [#64. Minimum Path Sum](./Leetcode-64.md)
@@ -115,6 +117,7 @@
 - [#621. Task Scheduler](./Leetcode-621.js)
 - [#42. Trapping Rain Water](./Leetcode-42.js)
 - [#72. Edit Distance](./Leetcode-72.js)
+- [#983. Minimum Cost For Tickets](./Leetcode-983.js)
 
 **字典树**
 - [#208. Implement Trie (Prefix Tree)](./Leetcode-208.js)
@@ -163,6 +166,7 @@
 - [#205. Isomorphic Strings](./Leetcode-205.js)
 - [#680. Valid Palindrome II](./Leetcode-680.js)
 - [#8. String to Integer (atoi)](./Leetcode-8.js)
+- [#5. Longest Palindromic Substring](./Leetcode-5.js)
 
 **高级动态规划**
 - [#300. Longest Increasing Subsequence](./Leetcode-300.js)
