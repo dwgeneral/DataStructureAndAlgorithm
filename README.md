@@ -41,6 +41,7 @@
 
 **哈希表**
 - [#1. Two Sum](./Leetcode-1.js)
+- [#20. Valid Parentheses](./Leetcode-20.js)
 - [#49. Group Anagrams](./Leetcode-49.js)
 - [#242. Valid Anagram](./Leetcode-242.js)
 - [#149. Max Points on a Line](./Leetcode-149.js)  🌈🌈🌈
@@ -51,6 +52,7 @@
 - [#429. N-ary Tree Level Order Traversal](./Leetcode-429.js)
 - [#589. N-ary Tree Preorder Traversal](./Leetcode-589.js)
 - [#590. N-ary Tree Postorder Traversal](./Leetcode-590.js)
+- [#572. Subtree of Another Tree](./Leetcode-572.js)
 
 **递归、回溯**
 - [#22. Generate Parentheses](./Leetcode-22.md)
