@@ -24,6 +24,8 @@
 - [#70 Climbing Stairs](./Leetcode-70.js)
 - [#15 3Sum](./Leetcode-15.js)
 - [#面试题 01.07. Rotate Matrix LCCI](./Leetcode-面试题-01.07.md)
+- [#334. Increasing Triplet Subsequence](./Leetcode-334.js)
+- [#155. ](./Leetcode-155.js)
 
 
 **链表**
@@ -155,6 +157,7 @@
 - [#1244. Design A Leaderboard](./Leetcode-1244.js)
 - [#56. Merge Intervals](./Leetcode-56.js)
 - [#493. Reverse Pairs](./Leetcode-493.js)
+- [#215. Kth Largest Element in an Array](./Leetcode-215.js)
 
 **归并排序**
 - [#面试题51. 数组中的逆序对](./Leetcode-面试题51.js)
@@ -169,6 +172,7 @@
 - [#680. Valid Palindrome II](./Leetcode-680.js)
 - [#8. String to Integer (atoi)](./Leetcode-8.js)
 - [#5. Longest Palindromic Substring](./Leetcode-5.js)
+- [#522. Longest Uncommon Subsequence II](./Leetcode-522.js)  🌈🌈字节跳动
 
 **高级动态规划**
 - [#300. Longest Increasing Subsequence](./Leetcode-300.js)
