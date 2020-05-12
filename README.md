@@ -25,7 +25,8 @@
 - [#15 3Sum](./Leetcode-15.js)
 - [#面试题 01.07. Rotate Matrix LCCI](./Leetcode-面试题-01.07.md)
 - [#334. Increasing Triplet Subsequence](./Leetcode-334.js)
-- [#155. ](./Leetcode-155.js)
+- [#347. Top K Frequent Elements](./Leetcode-347.js)  🌈🌈
+- [#155. Min Stack](./Leetcode-155.js)
 
 
 **链表**
@@ -55,6 +56,7 @@
 - [#589. N-ary Tree Preorder Traversal](./Leetcode-589.js)
 - [#590. N-ary Tree Postorder Traversal](./Leetcode-590.js)
 - [#572. Subtree of Another Tree](./Leetcode-572.js)
+- [#116. Populating Next Right Pointers in Each Node](./Leetcode-116.js)
 
 **递归、回溯**
 - [#22. Generate Parentheses](./Leetcode-22.md)
