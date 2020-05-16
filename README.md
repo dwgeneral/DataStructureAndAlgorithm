@@ -28,6 +28,10 @@
 - [#347. Top K Frequent Elements](./Leetcode-347.js)  🌈🌈
 - [#155. Min Stack](./Leetcode-155.js)
 
+**子数组前缀和问题**
+- [#560. Subarray Sum Equals K](./Leetcode-560.js)
+- [#523. Continuous Subarray Sum](./Leetcode-523.js)
+
 
 **链表**
 - [#2 Add Two Numbers](./Leetcode-2.js)            🌈🌈🌈
@@ -40,6 +44,7 @@
 - [#25 reverse-nodes-in-k-group/](./Leetcode-25.js)
 - [#445. Add Two Numbers II](./Leetcode-445.js)    🌈🌈🌈
 - [#202. Happy Number](./Leetcode-202.js) ⭐️
+- [#160. Intersection of Two Linked Lists](./Leetcode-160.js)
 
 
 **哈希表**
@@ -57,6 +62,7 @@
 - [#590. N-ary Tree Postorder Traversal](./Leetcode-590.js)
 - [#572. Subtree of Another Tree](./Leetcode-572.js)
 - [#116. Populating Next Right Pointers in Each Node](./Leetcode-116.js)
+- [#109. Convert Sorted List to Binary Search Tree](./Leetcode-109.js)
 
 **递归、回溯**
 - [#22. Generate Parentheses](./Leetcode-22.md)
@@ -107,6 +113,7 @@
 - [#74. Search a 2D Matrix](./Leetcode-74.js)
 - [练习：二分查找找有序数组断点](./binary-search.js)
 - [#1095. Find in Mountain Array](./Leetcode-1095.js)
+- [#278. First Bad Version](./Leetcode-278.js)
 
 **动态规划**
 - [#64. Minimum Path Sum](./Leetcode-64.md)
@@ -148,6 +155,7 @@
 - [#51. N-Queens](./Leetcode-51.js)
 - [#52. N-QueensII](./Leetcode-52.js)
 - [#面试题56. 数组中数字出现的次数](./Leetcode-面试题56.js)
+- [#136. Single Number](./Leetcode-136.js)
 
 **LRU Cache**
 - [#146. LRU Cache](./Leetcode-146.js)  🌈🌈🌈
