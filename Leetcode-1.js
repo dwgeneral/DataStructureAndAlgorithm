@@ -6,7 +6,7 @@
  * @return {number[]}
  */
 
-// 方法一：暴力法, 两层循环 O(n^2)
+/* 方法一：暴力法, 两层循环 O(n^2)
 var twoSum = function(nums, target) {
  for (let i = 0; i < nums.length - 1; i++) {
    for (let j = i+1; j < nums.length; j++) {
@@ -14,6 +14,7 @@ var twoSum = function(nums, target) {
    }
  } 
 };
+*/
 
 // 方法二：使用哈希表， O(n)
 const twoSum = (nums, target) => {

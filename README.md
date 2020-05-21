@@ -31,6 +31,7 @@
 **子数组前缀和问题**
 - [#560. Subarray Sum Equals K](./Leetcode-560.js)
 - [#523. Continuous Subarray Sum](./Leetcode-523.js)
+- [#1371. Find the Longest Substring Containing Vowels in Even Counts](./Leetcode-1371.js) 🌈🌈🌈
 
 
 **链表**
@@ -41,7 +42,7 @@
 - [#24 swap-nodes-in-pairs](./Leetcode-24.js)      ⭐      ️
 - [#141 linked-list-cycle](./Leetcode-141.js)
 - [#142 linked-list-cycle-ii](./Leetcode-142.js)
-- [#25 reverse-nodes-in-k-group/](./Leetcode-25.js)
+- [#25 reverse-nodes-in-k-group/](./Leetcode-25.js) 🌈🌈🌈🌈
 - [#445. Add Two Numbers II](./Leetcode-445.js)    🌈🌈🌈
 - [#202. Happy Number](./Leetcode-202.js) ⭐️
 - [#160. Intersection of Two Linked Lists](./Leetcode-160.js)
@@ -156,6 +157,7 @@
 - [#52. N-QueensII](./Leetcode-52.js)
 - [#面试题56. 数组中数字出现的次数](./Leetcode-面试题56.js)
 - [#136. Single Number](./Leetcode-136.js)
+- [#1371. Find the Longest Substring Containing Vowels in Even Counts](./Leetcode-1371.js) 🌈🌈🌈
 
 **LRU Cache**
 - [#146. LRU Cache](./Leetcode-146.js)  🌈🌈🌈
@@ -187,6 +189,9 @@
 **高级动态规划**
 - [#300. Longest Increasing Subsequence](./Leetcode-300.js)
 - [#91. Decode Ways](./Leetcode-91.js)
+
+**图 拓扑排序**
+- [#210. Course Schedule II](./Leetcode-210.js)
 
 
 #### [学习笔记](./Notes.md)

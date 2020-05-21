@@ -5,15 +5,15 @@
  * @return {number}
  */
 const maxProduct = (nums) => {
-  if (nums.length <= 1) return nums[0]
-  let iMax = nums[0], iMin = nums[0], max = nums[0]
+  if (!nums.length) return 0
+  let max = nums[0], min = nums[0], result = max
   for (let i = 1; i < nums.length; i++) {
-    if (nums[i] < 0) [iMax, iMin] = [iMin, iMax]
-    iMax = Math.max(nums[i], nums[i] * iMax)
-    iMin = Math.min(nums[i], nums[i] * iMin)
-    max = Math.max(iMax, max)
+    if (nums[i] < 0) [max, min] = [min, max]
+    max = Math.max(nums[i], max*nums[i])
+    min = Math.min(nums[i], min*nums[i])
+    result = Math.max(result, max)
   }
-  return max
+  return result
 }
 
 /** DP 
