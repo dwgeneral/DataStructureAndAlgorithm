@@ -27,6 +27,7 @@
 - [#334. Increasing Triplet Subsequence](./Leetcode-334.js)
 - [#347. Top K Frequent Elements](./Leetcode-347.js)  🌈🌈
 - [#155. Min Stack](./Leetcode-155.js)
+- [#287. Find the Duplicate Number](./Leetcode-287.js)
 
 **子数组前缀和问题**
 - [#560. Subarray Sum Equals K](./Leetcode-560.js)
