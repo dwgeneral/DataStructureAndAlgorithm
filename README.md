@@ -33,6 +33,7 @@
 - [#560. Subarray Sum Equals K](./Leetcode-560.js)
 - [#523. Continuous Subarray Sum](./Leetcode-523.js)
 - [#1371. Find the Longest Substring Containing Vowels in Even Counts](./Leetcode-1371.js) 🌈🌈🌈
+- [#974. Subarray Sums Divisible by K](./Leetcode-974.js)
 
 
 **链表**
@@ -133,6 +134,7 @@
 - [#42. Trapping Rain Water](./Leetcode-42.js)
 - [#72. Edit Distance](./Leetcode-72.js)
 - [#983. Minimum Cost For Tickets](./Leetcode-983.js)
+- [#84. Largest Rectangle in Histogram](./Leetcode-84.js)
 
 **字典树**
 - [#208. Implement Trie (Prefix Tree)](./Leetcode-208.js)
@@ -186,6 +188,7 @@
 - [#8. String to Integer (atoi)](./Leetcode-8.js)
 - [#5. Longest Palindromic Substring](./Leetcode-5.js)
 - [#522. Longest Uncommon Subsequence II](./Leetcode-522.js)  🌈🌈字节跳动
+- [#394. Decode String](./Leetcode-394.js)
 
 **高级动态规划**
 - [#300. Longest Increasing Subsequence](./Leetcode-300.js)
